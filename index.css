@@ -1,0 +1,138 @@
+li {
+    /* retirando as bolinhas das nossas listas */
+    list-style: none;
+}
+
+.header-menu{
+    /* // Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+    display: flex;
+    position: top; 
+    width: 100%; /*Largura*/
+    padding: 8px; /*Espaçamento dos 4 lados*/
+    padding-bottom: 32px; /*Espaçamento inferior*/
+    padding-top: 32px;/*Espaçamento superior*/
+    height: 60px;
+    background-color: white;
+}
+
+.header-menu nav {
+/* elemento no html que aponta*/ 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
+    width: 50%;
+    align-items: center;
+}
+
+/*Pegando os itens com tag a de dentro da nossa lista*/
+.lista-menu li>a {
+    color: black;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    position: top;
+    width: 100%;
+    height: 688px;
+    left: 0px;
+    top: 60px;
+    
+    background: white;
+} 
+
+.imagemHero1 {
+
+    position: top;
+    width: 100%;
+    height: 516px;
+    left: 0px;
+    top: 2px;
+
+background: url(imagemHero1.png);
+
+}
+
+.titulo {
+
+    position: top;
+    width: 428px;
+    height: 76px;
+    left: 96px;
+    top: 570px;
+    color: #EFB40F
+
+
+}
+
+.quemSomos {
+
+    position: absolute;
+width: 1440px;
+height: 597px;
+left: 0px;
+top: 748px;
+
+background: #C4C4C4;
+}
+
+.imagemHero5 {
+    position: top;
+width: 672px;
+height: 440px;
+left: 48px;
+top: 828px;
+
+background: url(imagemHero5.png);
+}
+
+.titulo-quemSomos {
+    position: absolute;
+width: 686px;
+height: 36px;
+left: 754px;
+top: 112px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 36px;
+/* identical to box height, or 75% */
+
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+
+}
+
+.p1-quemSomos {
+    
+position: absolute;
+width: 634px;
+height: 321px;
+left: 748px;
+top: 199px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 30px;
+/* or 94% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
